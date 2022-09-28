@@ -3,16 +3,32 @@ Sales vehicle Assignment
 hive> create table salestab (ordernumber string, quatityorder string , priceeach string, orderlinenumber string, sales string, status string, Qtr_id string , month_id string , year_id string , productline string, msrp string, productcode string, phone string , city string , state string, postalcode string, country string, territory string , contactlastname string, contactfirstname string, dealsize string) row format delimited fields terminated by ',';
 OK
 Time taken: 0.108 seconds
+
+
+
+
+
 hive>
     >
     >
     > load data local inpath '/home/cloudera/sales.txt' into table salestab;
+    
+    
+    
+    
 Loading data to table practise.salestab
 Table practise.salestab stats: [numFiles=1, totalSize=360233]
 OK
 Time taken: 0.471 seconds
+
+
+
+
+
+
 hive> select * from practise.salestab limit 10;
 OK
+
 salestab.ordernumber    salestab.quatityorder   salestab.priceeach      salestab.orderlinenumber        salestab.sales  salestab.status salestab.qtr_id salestab.month_id       salestab.year_id salestab.productline    salestab.msrp   salestab.productcode    salestab.phone  salestab.city   salestab.state  salestab.postalcode     salestab.country        salestab.territory       salestab.contactlastname        salestab.contactfirstname       salestab.dealsize
 ORDERNUMBER     QUANTITYORDERED PRICEEACH       ORDERLINENUMBER SALES   STATUS  QTR_ID  MONTH_ID        YEAR_ID PRODUCTLINE     MSRP    PRODUCTCODE     PHONE   CITY    STATE   POSTALCODE       COUNTRY TERRITORY       CONTACTLASTNAME CONTACTFIRSTNAME        DEALSIZE
 10107   30      95.7    2       2871    Shipped 1       2       2003    Motorcycles     95      S10_1678        2125557818      NYC     NY      10022   USA     NA      Yu      Kwai    Small
@@ -25,6 +41,10 @@ ORDERNUMBER     QUANTITYORDERED PRICEEACH       ORDERLINENUMBER SALES   STATUS  
 10188   48      100     1       5512.32 Shipped 4       11      2003    Motorcycles     95      S10_1678        +47 2267 3215   Bergen          N 5804  Norway  EMEA    Oeztan  Veysel  Medium
 10201   22      98.57   2       2168.54 Shipped 4       12      2003    Motorcycles     95      S10_1678        6505555787      San Francisco   CA              USA     NA      Murphy  Julie    Small
 Time taken: 0.082 seconds, Fetched: 10 row(s)
+
+
+
+
 
 hive>
     >
@@ -57,5 +77,7 @@ MapReduce Jobs Launched:
 Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.8 sec   HDFS Read: 370181 HDFS Write: 8 SUCCESS
 Total MapReduce CPU Time Spent: 2 seconds 800 msec
 OK
+    
+    
 totalsales
 99067.0
