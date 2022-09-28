@@ -81,3 +81,43 @@ OK
     
 totalsales
 99067.0
+
+
+
+
+
+
+
+
+
+hive>
+    >
+    > select max(productline) as totalsales from salestab;
+
+
+Query ID = cloudera_20220928092121_54dcf6a1-934b-4872-930d-d39d364e7a2b
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1664379406561_0003, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1664379406561_0003/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1664379406561_0003
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2022-09-28 09:21:45,380 Stage-1 map = 0%,  reduce = 0%
+2022-09-28 09:21:56,672 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2022-09-28 09:22:06,777 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2.81 sec
+MapReduce Total cumulative CPU time: 2 seconds 810 msec
+Ended Job = job_1664379406561_0003
+MapReduce Jobs Launched:
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.81 sec   HDFS Read: 370008 HDFS Write: 13 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 810 msec
+
+OK
+totalsales
+Vintage Cars
+
