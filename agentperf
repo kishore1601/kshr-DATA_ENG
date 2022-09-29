@@ -1,0 +1,2817 @@
+hive>
+    >
+    > load data local inpath '/home/cloudera/AgentPerformance.csv' into table agentperf;
+Loading data to table practise.agentperf
+Table practise.agentperf stats: [numFiles=1, totalSize=109853]
+OK
+Time taken: 0.867 seconds
+hive> select * from agentperf;
+OK
+SL No   Date    Agent Name      Total Chats     Average Response Time   Average Resolution Time Average Rating  Total Feedback
+1       7/30/2022       Prerna Singh    11      0:00:38 0:04:20 4.11    9
+2       7/30/2022       Nandani Gupta   11      0:01:15 0:28:25 3.14    7
+3       7/30/2022       Ameya Jain      14      0:00:30 0:11:36 4.55    11
+4       7/30/2022       Mahesh Sarade   14      0:01:04 0:15:46 4.71    7
+5       7/30/2022       Swati   14      0:01:11 0:16:33 3.67    6
+6       7/30/2022       Mukesh  9       0:00:34 0:15:34 4.62    8
+7       7/30/2022       Saikumarreddy N 15      0:00:31 0:11:09 5       12
+8       7/30/2022       Sanjeev Kumar   12      0:00:55 0:20:43 5       6
+9       7/30/2022       Shubham Sharma  13      0:01:31 0:25:10 4.38    8
+10      7/30/2022       Nishtha Jain    20      0:00:59 0:13:31 4.12    16
+11      7/30/2022       Manjunatha A    11      0:00:47 0:42:56 3.6     5
+12      7/30/2022       Khushboo Priya  20      0:01:32 0:21:35 4.43    14
+13      7/30/2022       Suraj S Bilgi   20      0:01:21 0:31:26 4.36    11
+14      7/30/2022       Harikrishnan Shaji      13      0:00:42 0:25:49 4.57    7
+15      7/30/2022       Hrisikesh Neogi 28      0:01:24 0:26:57 4.3     20
+16      7/30/2022       Shivan K        18      0:01:13 0:15:42 4.17    12
+17      7/30/2022       Sowmiya Sivakumar       21      0:00:51 0:16:24 4.75    16
+18      7/30/2022       Madhulika G     22      0:01:13 0:27:54 4.25    12
+19      7/30/2022       Mithun S        23      0:00:42 0:10:15 4.05    20
+20      7/30/2022       Hitesh Choudhary        0       0:00:00 0:00:00 0       0
+21      7/30/2022       Sanjeevan       0       0:00:00 0:00:00 0       0
+22      7/30/2022       Anirudh         0       0:00:00 0:00:00 0       0
+23      7/30/2022       Shiva Srivastava        0       0:00:00 0:00:00 0       0
+24      7/30/2022       Dibyanshu       0       0:00:00 0:00:00 0       0
+25      7/30/2022       Ashish  0       0:00:00 0:00:00 0       0
+26      7/30/2022       Uday Mishra     0       0:00:00 0:00:00 0       0
+27      7/30/2022       Aditya Shinde   0       0:00:00 0:00:00 0       0
+28      7/30/2022       Jayant Kumar    0       0:00:00 0:00:00 0       0
+29      7/30/2022       Aditya_iot      0       0:00:00 0:00:00 0       0
+30      7/30/2022       Prabir Kumar Satapathy  0       0:00:00 0:00:00 0       0
+31      7/30/2022       Saurabh Shukla  0       0:00:00 0:00:00 0       0
+32      7/30/2022       Wasim   0       0:00:00 0:00:00 0       0
+33      7/30/2022       Samprit         0       0:00:00 0:00:00 0       0
+34      7/30/2022       Maitry  0       0:00:00 0:00:00 0       0
+35      7/30/2022       Abhishek        0       0:00:00 0:00:00 0       0
+36      7/30/2022       Rishav Dash     0       0:00:00 0:00:00 0       0
+37      7/30/2022       Aravind         0       0:00:00 0:00:00 0       0
+38      7/30/2022       Tarun   0       0:00:00 0:00:00 0       0
+39      7/30/2022       Muskan Garg     0       0:00:00 0:00:00 0       0
+40      7/30/2022       Ankit Sharma    0       0:00:00 0:00:00 0       0
+41      7/30/2022       Bharath         0       0:00:00 0:00:00 0       0
+42      7/30/2022       Ashad Nasim     0       0:00:00 0:00:00 0       0
+43      7/30/2022       Vasanth P       0       0:00:00 0:00:00 0       0
+44      7/30/2022       Aditya  0       0:00:00 0:00:00 0       0
+45      7/30/2022       Amersh  0       0:00:00 0:00:00 0       0
+46      7/30/2022       Sandipan Saha   0       0:00:00 0:00:00 0       0
+47      7/30/2022       Ineuron Intelligence    0       0:00:00 0:00:00 0       0
+48      7/30/2022       Mahak   0       0:00:00 0:00:00 0       0
+49      7/30/2022       Mukesh Rao      0       0:00:00 0:00:00 0       0
+50      7/30/2022       Zeeshan         0       0:00:00 0:00:00 0       0
+51      7/30/2022       Rishav Dash     0       0:00:00 0:00:00 0       0
+52      7/30/2022       Anurag Tiwari   0       0:00:00 0:00:00 0       0
+53      7/30/2022       Ankitjha        0       0:00:00 0:00:00 0       0
+54      7/30/2022       Saif Khan       0       0:00:00 0:00:00 0       0
+55      7/30/2022       Jaydeep Dixit   0       0:00:00 0:00:00 0       0
+56      7/30/2022       Sudhanshu Kumar 0       0:00:00 0:00:00 0       0
+57      7/30/2022       Maneesh         0       0:00:00 0:00:00 0       0
+58      7/30/2022       Hyder Abbas     0       0:00:00 0:00:00 0       0
+59      7/30/2022       Ashish  0       0:00:00 0:00:00 0       0
+60      7/30/2022       Rohan   0       0:00:00 0:00:00 0       0
+61      7/30/2022       Vivek   0       0:00:00 0:00:00 0       0
+62      7/30/2022       Nitin M 0       0:00:00 0:00:00 0       0
+63      7/30/2022       Shivan_S        0       0:00:00 0:00:00 0       0
+64      7/30/2022       Spuri   0       0:00:00 0:00:00 0       0
+65      7/30/2022       Ayushi Mishra   0       0:00:00 0:00:00 0       0
+66      7/30/2022       Chaitra K Hiremath      0       0:00:00 0:00:00 0       0
+67      7/30/2022       Prateek _iot    0       0:00:00 0:00:00 0       0
+68      7/30/2022       Boktiar Ahmed Bappy     4       0:02:23 0:09:28 4.75    4
+69      7/30/2022       Shivananda Sonwane      4       0:01:14 0:16:53 5       1
+70      7/30/2022       Ishawant Kumar  3       0:00:14 0:00:42 4.67    3
+71      7/30/2022       Deepranjan Gupta        5       0:00:25 0:08:38 4.8     5
+72      7/30/2022       Jawala Prakash  4       0:00:36 0:11:56 3       2
+73      7/29/2022       Shivananda Sonwane      14      0:00:45 0:15:38 4.67    9
+74      7/29/2022       Boktiar Ahmed Bappy     11      0:01:59 0:18:25 4       5
+75      7/29/2022       Shiva Srivastava        7       0:00:25 0:05:58 4.17    6
+76      7/29/2022       Muskan Garg     7       0:00:30 0:07:19 5       4
+77      7/29/2022       Prateek _iot    8       0:00:36 0:10:41 3.75    4
+78      7/29/2022       Aditya_iot      12      0:00:52 0:13:22 4.6     10
+79      7/29/2022       Nandani Gupta   24      0:01:24 0:28:53 3.79    14
+80      7/29/2022       Prerna Singh    17      0:01:00 0:29:19 4.22    9
+81      7/29/2022       Jaydeep Dixit   27      0:00:52 0:24:13 3.95    22
+82      7/29/2022       Sanjeev Kumar   22      0:00:46 0:27:53 4.27    15
+83      7/29/2022       Mahesh Sarade   31      0:01:57 0:26:45 3.94    18
+84      7/29/2022       Zeeshan         33      0:01:30 0:22:45 3.79    24
+85      7/29/2022       Mukesh  10      0:01:06 0:22:24 4.67    9
+86      7/29/2022       Chaitra K Hiremath      11      0:00:41 0:07:58 5       4
+87      7/29/2022       Suraj S Bilgi   8       0:01:41 0:47:24 5       4
+88      7/29/2022       Shivan K        14      0:00:59 0:15:35 4.38    13
+89      7/29/2022       Mithun S        19      0:00:57 0:14:59 4.8     15
+90      7/29/2022       Rishav Dash     18      0:01:11 0:26:04 4.23    13
+91      7/29/2022       Madhulika G     21      0:01:54 0:39:59 4.36    11
+92      7/29/2022       Hrisikesh Neogi 18      0:01:44 0:37:24 3.77    13
+93      7/29/2022       Sowmiya Sivakumar       23      0:01:40 0:41:55 3.43    14
+94      7/29/2022       Wasim   23      0:00:43 0:18:24 4.71    14
+95      7/29/2022       Prabir Kumar Satapathy  22      0:01:31 0:10:26 4.36    14
+96      7/29/2022       Bharath         17      0:00:28 0:24:22 4.85    13
+97      7/29/2022       Hitesh Choudhary        0       0:00:00 0:00:00 0       0
+98      7/29/2022       Sanjeevan       0       0:00:00 0:00:00 0       0
+99      7/29/2022       Anirudh         0       0:00:00 0:00:00 0       0
+100     7/29/2022       Dibyanshu       0       0:00:00 0:00:00 0       0
+101     7/29/2022       Ashish  0       0:00:00 0:00:00 0       0
+102     7/29/2022       Uday Mishra     0       0:00:00 0:00:00 0       0
+103     7/29/2022       Aditya Shinde   0       0:00:00 0:00:00 0       0
+104     7/29/2022       Nishtha Jain    0       0:00:00 0:00:00 0       0
+105     7/29/2022       Jayant Kumar    0       0:00:00 0:00:00 0       0
+106     7/29/2022       Swati   0       0:00:00 0:00:00 0       0
+107     7/29/2022       Saurabh Shukla  0       0:00:00 0:00:00 0       0
+108     7/29/2022       Samprit         0       0:00:00 0:00:00 0       0
+109     7/29/2022       Ankit Sharma    0       0:00:00 0:00:00 0       0
+110     7/29/2022       Abhishek        0       0:00:00 0:00:00 0       0
+111     7/29/2022       Rishav Dash     0       0:00:00 0:00:00 0       0
+112     7/29/2022       Aravind         0       0:00:00 0:00:00 0       0
+113     7/29/2022       Khushboo Priya  0       0:00:00 0:00:00 0       0
+114     7/29/2022       Maitry  0       0:00:00 0:00:00 0       0
+115     7/29/2022       Tarun   0       0:00:00 0:00:00 0       0
+116     7/29/2022       Ashad Nasim     0       0:00:00 0:00:00 0       0
+117     7/29/2022       Vasanth P       0       0:00:00 0:00:00 0       0
+118     7/29/2022       Aditya  0       0:00:00 0:00:00 0       0
+119     7/29/2022       Amersh  0       0:00:00 0:00:00 0       0
+120     7/29/2022       Shubham Sharma  0       0:00:00 0:00:00 0       0
+121     7/29/2022       Ineuron Intelligence    0       0:00:00 0:00:00 0       0
+122     7/29/2022       Mahak   0       0:00:00 0:00:00 0       0
+123     7/29/2022       Sandipan Saha   0       0:00:00 0:00:00 0       0
+124     7/29/2022       Mukesh Rao      0       0:00:00 0:00:00 0       0
+125     7/29/2022       Manjunatha A    0       0:00:00 0:00:00 0       0
+126     7/29/2022       Ameya Jain      0       0:00:00 0:00:00 0       0
+127     7/29/2022       Ankitjha        0       0:00:00 0:00:00 0       0
+128     7/29/2022       Anurag Tiwari   0       0:00:00 0:00:00 0       0
+129     7/29/2022       Saif Khan       0       0:00:00 0:00:00 0       0
+130     7/29/2022       Ashish  0       0:00:00 0:00:00 0       0
+131     7/29/2022       Harikrishnan Shaji      0       0:00:00 0:00:00 0       0
+132     7/29/2022       Sudhanshu Kumar 0       0:00:00 0:00:00 0       0
+133     7/29/2022       Maneesh         0       0:00:00 0:00:00 0       0
+134     7/29/2022       Hyder Abbas     0       0:00:00 0:00:00 0       0
+135     7/29/2022       Saikumarreddy N 0       0:00:00 0:00:00 0       0
+136     7/29/2022       Rohan   0       0:00:00 0:00:00 0       0
+137     7/29/2022       Vivek   0       0:00:00 0:00:00 0       0
+138     7/29/2022       Shivan_S        0       0:00:00 0:00:00 0       0
+139     7/29/2022       Nitin M 0       0:00:00 0:00:00 0       0
+140     7/29/2022       Spuri   0       0:00:00 0:00:00 0       0
+141     7/29/2022       Ishawant Kumar  13      0:00:54 0:25:46 5       8
+142     7/29/2022       Jawala Prakash  11      0:02:16 0:22:47 4.83    6
+143     7/29/2022       Ayushi Mishra   4       0:01:16 0:04:56 5       3
+144     7/29/2022       Deepranjan Gupta        20      0:00:56 0:15:21 4.06    16
+145     7/28/2022       Ayushi Mishra   20      0:01:20 0:14:18 4.2     15
+146     7/28/2022       Shiva Srivastava        6       0:00:24 0:05:07 2.17    6
+147     7/28/2022       Muskan Garg     8       0:00:45 0:20:15 4       2
+148     7/28/2022       Deepranjan Gupta        25      0:01:00 0:22:00 4.26    19
+149     7/28/2022       Aditya_iot      3       0:00:35 0:10:33 2.67    3
+150     7/28/2022       Prateek _iot    19      0:00:36 0:11:00 4.09    11
+151     7/28/2022       Shubham Sharma  38      0:01:20 0:18:37 4.33    24
+152     7/28/2022       Ameya Jain      39      0:00:56 0:09:01 4.64    33
+153     7/28/2022       Jaydeep Dixit   34      0:00:59 0:24:35 4.45    22
+154     7/28/2022       Saikumarreddy N 43      0:01:13 0:13:52 4.38    37
+155     7/28/2022       Zeeshan         46      0:01:48 0:16:13 4.18    28
+156     7/28/2022       Chaitra K Hiremath      11      0:00:51 0:09:33 4.29    7
+157     7/28/2022       Rishav Dash     16      0:02:35 0:36:24 4.12    8
+158     7/28/2022       Khushboo Priya  17      0:01:28 0:25:31 3.79    14
+159     7/28/2022       Wasim   32      0:01:15 0:25:08 3.95    21
+160     7/28/2022       Nishtha Jain    37      0:01:43 0:24:15 3.36    28
+161     7/28/2022       Harikrishnan Shaji      20      0:00:36 0:11:15 4.47    17
+162     7/28/2022       Manjunatha A    19      0:00:49 0:35:48 4.23    13
+163     7/28/2022       Prabir Kumar Satapathy  27      0:00:51 0:09:10 4.45    20
+164     7/28/2022       Bharath         23      0:00:35 0:19:44 4.79    19
+165     7/28/2022       Hitesh Choudhary        0       0:00:00 0:00:00 0       0
+166     7/28/2022       Sanjeev Kumar   0       0:00:00 0:00:00 0       0
+167     7/28/2022       Sanjeevan       0       0:00:00 0:00:00 0       0
+168     7/28/2022       Mukesh  0       0:00:00 0:00:00 0       0
+169     7/28/2022       Anirudh         0       0:00:00 0:00:00 0       0
+170     7/28/2022       Dibyanshu       0       0:00:00 0:00:00 0       0
+171     7/28/2022       Ashish  0       0:00:00 0:00:00 0       0
+172     7/28/2022       Hrisikesh Neogi 0       0:00:00 0:00:00 0       0
+173     7/28/2022       Uday Mishra     0       0:00:00 0:00:00 0       0
+174     7/28/2022       Aditya Shinde   0       0:00:00 0:00:00 0       0
+175     7/28/2022       Jayant Kumar    0       0:00:00 0:00:00 0       0
+176     7/28/2022       Swati   0       0:00:00 0:00:00 0       0
+177     7/28/2022       Mithun S        0       0:00:00 0:00:00 0       0
+178     7/28/2022       Prerna Singh    0       0:00:00 0:00:00 0       0
+179     7/28/2022       Saurabh Shukla  0       0:00:00 0:00:00 0       0
+180     7/28/2022       Samprit         0       0:00:00 0:00:00 0       0
+181     7/28/2022       Ankit Sharma    0       0:00:00 0:00:00 0       0
+182     7/28/2022       Abhishek        0       0:00:00 0:00:00 0       0
+183     7/28/2022       Rishav Dash     0       0:00:00 0:00:00 0       0
+184     7/28/2022       Aravind         0       0:00:00 0:00:00 0       0
+185     7/28/2022       Maitry  0       0:00:00 0:00:00 0       0
+186     7/28/2022       Tarun   0       0:00:00 0:00:00 0       0
+187     7/28/2022       Ashad Nasim     0       0:00:00 0:00:00 0       0
+188     7/28/2022       Vasanth P       0       0:00:00 0:00:00 0       0
+189     7/28/2022       Aditya  0       0:00:00 0:00:00 0       0
+190     7/28/2022       Amersh  0       0:00:00 0:00:00 0       0
+191     7/28/2022       Mahak   0       0:00:00 0:00:00 0       0
+192     7/28/2022       Ineuron Intelligence    0       0:00:00 0:00:00 0       0
+193     7/28/2022       Sandipan Saha   0       0:00:00 0:00:00 0       0
+194     7/28/2022       Mukesh Rao      0       0:00:00 0:00:00 0       0
+195     7/28/2022       Ankitjha        0       0:00:00 0:00:00 0       0
+196     7/28/2022       Saif Khan       0       0:00:00 0:00:00 0       0
+197     7/28/2022       Anurag Tiwari   0       0:00:00 0:00:00 0       0
+198     7/28/2022       Ashish  0       0:00:00 0:00:00 0       0
+199     7/28/2022       Sudhanshu Kumar 0       0:00:00 0:00:00 0       0
+200     7/28/2022       Maneesh         0       0:00:00 0:00:00 0       0
+201     7/28/2022       Hyder Abbas     0       0:00:00 0:00:00 0       0
+202     7/28/2022       Suraj S Bilgi   0       0:00:00 0:00:00 0       0
+203     7/28/2022       Rohan   0       0:00:00 0:00:00 0       0
+204     7/28/2022       Nandani Gupta   0       0:00:00 0:00:00 0       0
+205     7/28/2022       Vivek   0       0:00:00 0:00:00 0       0
+206     7/28/2022       Shivan_S        0       0:00:00 0:00:00 0       0
+207     7/28/2022       Nitin M 0       0:00:00 0:00:00 0       0
+208     7/28/2022       Shivan K        0       0:00:00 0:00:00 0       0
+209     7/28/2022       Spuri   0       0:00:00 0:00:00 0       0
+210     7/28/2022       Mahesh Sarade   0       0:00:00 0:00:00 0       0
+211     7/28/2022       Madhulika G     0       0:00:00 0:00:00 0       0
+212     7/28/2022       Sowmiya Sivakumar       0       0:00:00 0:00:00 0       0
+213     7/28/2022       Ishawant Kumar  17      0:01:24 0:16:57 4.75    12
+214     7/28/2022       Shivananda Sonwane      5       0:00:31 0:38:04 5       4
+215     7/28/2022       Jawala Prakash  21      0:01:07 0:13:33 4.33    15
+216     7/28/2022       Boktiar Ahmed Bappy     2       0:00:51 0:05:26 0       0
+217     7/27/2022       Ishawant Kumar  13      0:01:12 0:20:06 4.88    8
+218     7/27/2022       Jawala Prakash  14      0:02:44 0:18:31 3.89    9
+219     7/27/2022       Shiva Srivastava        13      0:00:38 0:07:17 4       9
+220     7/27/2022       Muskan Garg     17      0:00:28 0:09:06 4.15    13
+221     7/27/2022       Prateek _iot    7       0:01:07 0:18:03 4.83    6
+222     7/27/2022       Aditya_iot      15      0:00:52 0:18:14 3.33    6
+223     7/27/2022       Prerna Singh    20      0:01:10 0:28:10 4.5     14
+224     7/27/2022       Mahesh Sarade   9       0:01:22 0:12:14 4.2     5
+225     7/27/2022       Sanjeev Kumar   19      0:01:00 0:29:25 4.82    11
+226     7/27/2022       Nandani Gupta   24      0:01:10 0:35:56 4.62    13
+227     7/27/2022       Saikumarreddy N 31      0:01:18 0:18:39 4.59    22
+228     7/27/2022       Zeeshan         30      0:01:44 0:21:11 4.47    17
+229     7/27/2022       Ameya Jain      21      0:01:07 0:15:11 5       16
+230     7/27/2022       Shubham Sharma  29      0:01:53 0:38:24 4.23    22
+231     7/27/2022       Chaitra K Hiremath      13      0:00:37 0:07:31 4.22    9
+232     7/27/2022       Ankitjha        3       0:02:13 0:04:58 3       2
+233     7/27/2022       Nishtha Jain    12      0:00:59 0:11:11 3.67    9
+234     7/27/2022       Khushboo Priya  18      0:01:28 0:15:31 4.71    14
+235     7/27/2022       Mithun S        18      0:00:39 0:10:12 4.07    15
+236     7/27/2022       Wasim   25      0:01:05 0:27:15 4.53    17
+237     7/27/2022       Sowmiya Sivakumar       19      0:00:44 0:07:54 4.29    14
+238     7/27/2022       Hrisikesh Neogi 20      0:01:25 0:21:08 4.4     15
+239     7/27/2022       Harikrishnan Shaji      17      0:00:35 0:10:25 4.5     12
+240     7/27/2022       Manjunatha A    18      0:01:04 0:24:54 4.54    13
+241     7/27/2022       Madhulika G     21      0:02:00 0:34:56 4.36    11
+242     7/27/2022       Bharath         21      0:00:32 0:19:58 4.88    17
+243     7/27/2022       Hitesh Choudhary        0       0:00:00 0:00:00 0       0
+244     7/27/2022       Sanjeevan       0       0:00:00 0:00:00 0       0
+245     7/27/2022       Mukesh  0       0:00:00 0:00:00 0       0
+246     7/27/2022       Anirudh         0       0:00:00 0:00:00 0       0
+247     7/27/2022       Dibyanshu       0       0:00:00 0:00:00 0       0
+248     7/27/2022       Ashish  0       0:00:00 0:00:00 0       0
+249     7/27/2022       Uday Mishra     0       0:00:00 0:00:00 0       0
+250     7/27/2022       Aditya Shinde   0       0:00:00 0:00:00 0       0
+251     7/27/2022       Jayant Kumar    0       0:00:00 0:00:00 0       0
+252     7/27/2022       Swati   0       0:00:00 0:00:00 0       0
+253     7/27/2022       Prabir Kumar Satapathy  0       0:00:00 0:00:00 0       0
+254     7/27/2022       Saurabh Shukla  0       0:00:00 0:00:00 0       0
+255     7/27/2022       Ankit Sharma    0       0:00:00 0:00:00 0       0
+256     7/27/2022       Samprit         0       0:00:00 0:00:00 0       0
+257     7/27/2022       Abhishek        0       0:00:00 0:00:00 0       0
+258     7/27/2022       Rishav Dash     0       0:00:00 0:00:00 0       0
+259     7/27/2022       Aravind         0       0:00:00 0:00:00 0       0
+260     7/27/2022       Tarun   0       0:00:00 0:00:00 0       0
+261     7/27/2022       Ashad Nasim     0       0:00:00 0:00:00 0       0
+262     7/27/2022       Vasanth P       0       0:00:00 0:00:00 0       0
+263     7/27/2022       Aditya  0       0:00:00 0:00:00 0       0
+264     7/27/2022       Amersh  0     
+
+
+=======================================================
+hive> select agent_name from agentperf;
+OK
+Agent Name
+Prerna Singh
+Nandani Gupta
+Ameya Jain
+Mahesh Sarade
+Swati
+Mukesh
+Saikumarreddy N
+Sanjeev Kumar
+Shubham Sharma
+Nishtha Jain
+Manjunatha A
+Khushboo Priya
+Suraj S Bilgi
+Harikrishnan Shaji
+Hrisikesh Neogi
+Shivan K
+Sowmiya Sivakumar
+Madhulika G
+Mithun S
+Hitesh Choudhary
+Sanjeevan
+Anirudh
+Shiva Srivastava
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Aditya_iot
+Prabir Kumar Satapathy
+Saurabh Shukla
+Wasim
+Samprit
+Maitry
+Abhishek
+Rishav Dash
+Aravind
+Tarun
+Muskan Garg
+Ankit Sharma
+Bharath
+Ashad Nasim
+Vasanth P
+Aditya
+Amersh
+Sandipan Saha
+Ineuron Intelligence
+Mahak
+Mukesh Rao
+Zeeshan
+Rishav Dash
+Anurag Tiwari
+Ankitjha
+Saif Khan
+Jaydeep Dixit
+Sudhanshu Kumar
+Maneesh
+Hyder Abbas
+Ashish
+Rohan
+Vivek
+Nitin M
+Shivan_S
+Spuri
+Ayushi Mishra
+Chaitra K Hiremath
+Prateek _iot
+Boktiar Ahmed Bappy
+Shivananda Sonwane
+Ishawant Kumar
+Deepranjan Gupta
+Jawala Prakash
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Shiva Srivastava
+Muskan Garg
+Prateek _iot
+Aditya_iot
+Nandani Gupta
+Prerna Singh
+Jaydeep Dixit
+Sanjeev Kumar
+Mahesh Sarade
+Zeeshan
+Mukesh
+Chaitra K Hiremath
+Suraj S Bilgi
+Shivan K
+Mithun S
+Rishav Dash
+Madhulika G
+Hrisikesh Neogi
+Sowmiya Sivakumar
+Wasim
+Prabir Kumar Satapathy
+Bharath
+Hitesh Choudhary
+Sanjeevan
+Anirudh
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Nishtha Jain
+Jayant Kumar
+Swati
+Saurabh Shukla
+Samprit
+Ankit Sharma
+Abhishek
+Rishav Dash
+Aravind
+Khushboo Priya
+Maitry
+Tarun
+Ashad Nasim
+Vasanth P
+Aditya
+Amersh
+Shubham Sharma
+Ineuron Intelligence
+Mahak
+Sandipan Saha
+Mukesh Rao
+Manjunatha A
+Ameya Jain
+Ankitjha
+Anurag Tiwari
+Saif Khan
+Ashish
+Harikrishnan Shaji
+Sudhanshu Kumar
+Maneesh
+Hyder Abbas
+Saikumarreddy N
+Rohan
+Vivek
+Shivan_S
+Nitin M
+Spuri
+Ishawant Kumar
+Jawala Prakash
+Ayushi Mishra
+Deepranjan Gupta
+Ayushi Mishra
+Shiva Srivastava
+Muskan Garg
+Deepranjan Gupta
+Aditya_iot
+Prateek _iot
+Shubham Sharma
+Ameya Jain
+Jaydeep Dixit
+Saikumarreddy N
+Zeeshan
+Chaitra K Hiremath
+Rishav Dash
+Khushboo Priya
+Wasim
+Nishtha Jain
+Harikrishnan Shaji
+Manjunatha A
+Prabir Kumar Satapathy
+Bharath
+Hitesh Choudhary
+Sanjeev Kumar
+Sanjeevan
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Hrisikesh Neogi
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Swati
+Mithun S
+Prerna Singh
+Saurabh Shukla
+Samprit
+Ankit Sharma
+Abhishek
+Rishav Dash
+Aravind
+Maitry
+Tarun
+Ashad Nasim
+Vasanth P
+Aditya
+Amersh
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Ashish
+Sudhanshu Kumar
+Maneesh
+Hyder Abbas
+Suraj S Bilgi
+Rohan
+Nandani Gupta
+Vivek
+Shivan_S
+Nitin M
+Shivan K
+Spuri
+Mahesh Sarade
+Madhulika G
+Sowmiya Sivakumar
+Ishawant Kumar
+Shivananda Sonwane
+Jawala Prakash
+Boktiar Ahmed Bappy
+Ishawant Kumar
+Jawala Prakash
+Shiva Srivastava
+Muskan Garg
+Prateek _iot
+Aditya_iot
+Prerna Singh
+Mahesh Sarade
+Sanjeev Kumar
+Nandani Gupta
+Saikumarreddy N
+Zeeshan
+Ameya Jain
+Shubham Sharma
+Chaitra K Hiremath
+Ankitjha
+Nishtha Jain
+Khushboo Priya
+Mithun S
+Wasim
+Sowmiya Sivakumar
+Hrisikesh Neogi
+Harikrishnan Shaji
+Manjunatha A
+Madhulika G
+Bharath
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Swati
+Prabir Kumar Satapathy
+Saurabh Shukla
+Ankit Sharma
+Samprit
+Abhishek
+Rishav Dash
+Aravind
+Tarun
+Ashad Nasim
+Vasanth P
+Aditya
+Amersh
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Rishav Dash
+Saif Khan
+Anurag Tiwari
+Ashish
+Sudhanshu Kumar
+Maneesh
+Hyder Abbas
+Suraj S Bilgi
+Rohan
+Vivek
+Shivan_S
+Nitin M
+Shivan K
+Spuri
+Jaydeep Dixit
+Maitry
+Shivananda Sonwane
+Ayushi Mishra
+Boktiar Ahmed Bappy
+Deepranjan Gupta
+Maitry
+Shiva Srivastava
+Muskan Garg
+Ankitjha
+Aditya_iot
+Prateek _iot
+Nandani Gupta
+Saikumarreddy N
+Prerna Singh
+Jaydeep Dixit
+Chaitra K Hiremath
+Sanjeev Kumar
+Mahesh Sarade
+Harikrishnan Shaji
+Shivan K
+Sowmiya Sivakumar
+Khushboo Priya
+Hrisikesh Neogi
+Mithun S
+Madhulika G
+Wasim
+Rishav Dash
+Prabir Kumar Satapathy
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Nishtha Jain
+Jayant Kumar
+Swati
+Saurabh Shukla
+Ankit Sharma
+Samprit
+Abhishek
+Rishav Dash
+Aravind
+Tarun
+Bharath
+Ashad Nasim
+Vasanth P
+Aditya
+Amersh
+Shubham Sharma
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Zeeshan
+Mukesh Rao
+Manjunatha A
+Ameya Jain
+Saif Khan
+Anurag Tiwari
+Ashish
+Sudhanshu Kumar
+Maneesh
+Hyder Abbas
+Suraj S Bilgi
+Rohan
+Vivek
+Shivan_S
+Nitin M
+Spuri
+Ishawant Kumar
+Boktiar Ahmed Bappy
+Ayushi Mishra
+Deepranjan Gupta
+Jawala Prakash
+Shivananda Sonwane
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Shiva Srivastava
+Prateek _iot
+Aditya_iot
+Muskan Garg
+Ameya Jain
+Sanjeev Kumar
+Swati
+Prerna Singh
+Shubham Sharma
+Zeeshan
+Jaydeep Dixit
+Chaitra K Hiremath
+Shivan K
+Harikrishnan Shaji
+Rishav Dash
+Sowmiya Sivakumar
+Mithun S
+Manjunatha A
+Wasim
+Bharath
+Nishtha Jain
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Hrisikesh Neogi
+Aditya Shinde
+Uday Mishra
+Jayant Kumar
+Prabir Kumar Satapathy
+Saurabh Shukla
+Ankit Sharma
+Samprit
+Abhishek
+Rishav Dash
+Khushboo Priya
+Aravind
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Ashish
+Maneesh
+Hyder Abbas
+Sudhanshu Kumar
+Saikumarreddy N
+Suraj S Bilgi
+Rohan
+Spuri
+Nandani Gupta
+Vivek
+Shivan_S
+Nitin M
+Mahesh Sarade
+Madhulika G
+Jawala Prakash
+Maitry
+Deepranjan Gupta
+Ishawant Kumar
+Ayushi Mishra
+Shiva Srivastava
+Jawala Prakash
+Deepranjan Gupta
+Ishawant Kumar
+Jaydeep Dixit
+Swati
+Shubham Sharma
+Mahesh Sarade
+Ameya Jain
+Aravind
+Zeeshan
+Saikumarreddy N
+Nishtha Jain
+Khushboo Priya
+Shivan K
+Madhulika G
+Rishav Dash
+Prabir Kumar Satapathy
+Manjunatha A
+Hrisikesh Neogi
+Bharath
+Hitesh Choudhary
+Sanjeevan
+Sanjeev Kumar
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Aditya Shinde
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Mithun S
+Saurabh Shukla
+Wasim
+Ankit Sharma
+Samprit
+Abhishek
+Prerna Singh
+Rishav Dash
+Tarun
+Muskan Garg
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Harikrishnan Shaji
+Ashish
+Prateek _iot
+Maneesh
+Sudhanshu Kumar
+Suraj S Bilgi
+Rohan
+Spuri
+Nandani Gupta
+Shivan_S
+Nitin M
+Vivek
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Ayushi Mishra
+Maitry
+Shiva Srivastava
+Ayushi Mishra
+Maitry
+Nandani Gupta
+Shubham Sharma
+Prerna Singh
+Swati
+Ameya Jain
+Mahesh Sarade
+Aravind
+Sanjeev Kumar
+Saikumarreddy N
+Nishtha Jain
+Khushboo Priya
+Harikrishnan Shaji
+Sowmiya Sivakumar
+Shivan K
+Madhulika G
+Hrisikesh Neogi
+Mithun S
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Saurabh Shukla
+Prabir Kumar Satapathy
+Wasim
+Deepranjan Gupta
+Ankit Sharma
+Samprit
+Abhishek
+Rishav Dash
+Tarun
+Muskan Garg
+Bharath
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Zeeshan
+Manjunatha A
+Rishav Dash
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Ashish
+Prateek _iot
+Maneesh
+Sudhanshu Kumar
+Suraj S Bilgi
+Rohan
+Spuri
+Shivan_S
+Nitin M
+Vivek
+Jaydeep Dixit
+Chaitra K Hiremath
+Ishawant Kumar
+Shivananda Sonwane
+Jawala Prakash
+Boktiar Ahmed Bappy
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Prateek _iot
+Aditya_iot
+Nandani Gupta
+Prerna Singh
+Jaydeep Dixit
+Aravind
+Zeeshan
+Mahesh Sarade
+Sanjeev Kumar
+Chaitra K Hiremath
+Rishav Dash
+Wasim
+Nishtha Jain
+Madhulika G
+Khushboo Priya
+Sowmiya Sivakumar
+Prabir Kumar Satapathy
+Mithun S
+Shivan K
+Bharath
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Dibyanshu
+Ashish
+Hrisikesh Neogi
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Swati
+Hyder Abbas
+Saurabh Shukla
+Deepranjan Gupta
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Tarun
+Muskan Garg
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Shubham Sharma
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Manjunatha A
+Ameya Jain
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Ashish
+Harikrishnan Shaji
+Maneesh
+Sudhanshu Kumar
+Saikumarreddy N
+Suraj S Bilgi
+Rohan
+Spuri
+Shivan_S
+Vivek
+Nitin M
+Ishawant Kumar
+Ayushi Mishra
+Maitry
+Jawala Prakash
+Ayushi Mishra
+Aditya_iot
+Prateek _iot
+Deepranjan Gupta
+Ameya Jain
+Jaydeep Dixit
+Shubham Sharma
+Zeeshan
+Saikumarreddy N
+Wasim
+Hrisikesh Neogi
+Harikrishnan Shaji
+Prabir Kumar Satapathy
+Rishav Dash
+Manjunatha A
+Bharath
+Hitesh Choudhary
+Sanjeevan
+Sanjeev Kumar
+Mukesh
+Anirudh
+Shiva Srivastava
+Dibyanshu
+Ashish
+Nishtha Jain
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Swati
+Hyder Abbas
+Mithun S
+Saurabh Shukla
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Prerna Singh
+Khushboo Priya
+Aravind
+Tarun
+Muskan Garg
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Mahak
+Ineuron Intelligence
+Sandipan Saha
+Mukesh Rao
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Ashish
+Maneesh
+Sudhanshu Kumar
+Suraj S Bilgi
+Rohan
+Spuri
+Nandani Gupta
+Shivan_S
+Vivek
+Nitin M
+Shivan K
+Mahesh Sarade
+Madhulika G
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Maitry
+Jawala Prakash
+Ishawant Kumar
+Jawala Prakash
+Ishawant Kumar
+Aditya_iot
+Prateek _iot
+Prerna Singh
+Hrisikesh Neogi
+Swati
+Ameya Jain
+Shubham Sharma
+Mahesh Sarade
+Zeeshan
+Sanjeev Kumar
+Saikumarreddy N
+Nandani Gupta
+Khushboo Priya
+Madhulika G
+Wasim
+Manjunatha A
+Mithun S
+Bharath
+Aravind
+Harikrishnan Shaji
+Sowmiya Sivakumar
+Nishtha Jain
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Dibyanshu
+Ashish
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Hyder Abbas
+Saurabh Shukla
+Prabir Kumar Satapathy
+Deepranjan Gupta
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Tarun
+Muskan Garg
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Ineuron Intelligence
+Mahak
+Sandipan Saha
+Mukesh Rao
+Rishav Dash
+Saif Khan
+Anurag Tiwari
+Ankitjha
+Ashish
+Maneesh
+Sudhanshu Kumar
+Rohan
+Spuri
+Suraj S Bilgi
+Shivan_S
+Vivek
+Nitin M
+Shivan K
+Jaydeep Dixit
+Chaitra K Hiremath
+Ayushi Mishra
+Shivananda Sonwane
+Boktiar Ahmed Bappy
+Maitry
+Maitry
+Prateek _iot
+Aditya_iot
+Saikumarreddy N
+Prerna Singh
+Harikrishnan Shaji
+Nandani Gupta
+Sanjeev Kumar
+Mahesh Sarade
+Jaydeep Dixit
+Aravind
+Shivan K
+Madhulika G
+Khushboo Priya
+Sowmiya Sivakumar
+Rishav Dash
+Wasim
+Hrisikesh Neogi
+Prabir Kumar Satapathy
+Mithun S
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Aditya Shinde
+Nishtha Jain
+Uday Mishra
+Jayant Kumar
+Hyder Abbas
+Swati
+Saurabh Shukla
+Bharath
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Muskan Garg
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Shubham Sharma
+Ineuron Intelligence
+Mahak
+Sandipan Saha
+Ameya Jain
+Zeeshan
+Mukesh Rao
+Manjunatha A
+Saif Khan
+Ankitjha
+Anurag Tiwari
+Ashish
+Maneesh
+Sudhanshu Kumar
+Spuri
+Rohan
+Suraj S Bilgi
+Shivan_S
+Vivek
+Nitin M
+Chaitra K Hiremath
+Shivananda Sonwane
+Ishawant Kumar
+Boktiar Ahmed Bappy
+Jawala Prakash
+Ayushi Mishra
+Deepranjan Gupta
+Ayushi Mishra
+Jawala Prakash
+Deepranjan Gupta
+Shivananda Sonwane
+Prateek _iot
+Prerna Singh
+Jaydeep Dixit
+Shubham Sharma
+Nandani Gupta
+Harikrishnan Shaji
+Aditya_iot
+Sanjeev Kumar
+Zeeshan
+Ameya Jain
+Rishav Dash
+Wasim
+Shivan K
+Mithun S
+Bharath
+Prabir Kumar Satapathy
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Hrisikesh Neogi
+Aditya Shinde
+Uday Mishra
+Jayant Kumar
+Hyder Abbas
+Swati
+Saurabh Shukla
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Aravind
+Maitry
+Muskan Garg
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Ineuron Intelligence
+Mahak
+Sandipan Saha
+Mukesh Rao
+Saif Khan
+Ankitjha
+Anurag Tiwari
+Ashish
+Maneesh
+Saikumarreddy N
+Rohan
+Sudhanshu Kumar
+Spuri
+Suraj S Bilgi
+Shivan_S
+Mahesh Sarade
+Vivek
+Nitin M
+Madhulika G
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Manjunatha A
+Boktiar Ahmed Bappy
+Nishtha Jain
+Ishawant Kumar
+Khushboo Priya
+Ishawant Kumar
+Khushboo Priya
+Nishtha Jain
+Boktiar Ahmed Bappy
+Manjunatha A
+Hrisikesh Neogi
+Saikumarreddy N
+Aravind
+Wasim
+Shivan K
+Nandani Gupta
+Mahesh Sarade
+Ameya Jain
+Prabir Kumar Satapathy
+Swati
+Maitry
+Rishav Dash
+Mithun S
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Aditya Shinde
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Saurabh Shukla
+Deepranjan Gupta
+Bharath
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Prerna Singh
+Muskan Garg
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Ineuron Intelligence
+Shubham Sharma
+Sandipan Saha
+Mahak
+Zeeshan
+Mukesh Rao
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Ashish
+Harikrishnan Shaji
+Prateek _iot
+Maneesh
+Rohan
+Spuri
+Suraj S Bilgi
+Shivan_S
+Vivek
+Nitin M
+Jawala Prakash
+Jaydeep Dixit
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Sudhanshu Kumar
+Ayushi Mishra
+Sanjeev Kumar
+Shivananda Sonwane
+Madhulika G
+Madhulika G
+Sanjeev Kumar
+Ayushi Mishra
+Shivananda Sonwane
+Shivan K
+Hrisikesh Neogi
+Deepranjan Gupta
+Wasim
+Nandani Gupta
+Saikumarreddy N
+Aravind
+Prabir Kumar Satapathy
+Ameya Jain
+Shubham Sharma
+Mahesh Sarade
+Aditya Shinde
+Jaydeep Dixit
+Prerna Singh
+Jawala Prakash
+Mithun S
+Zeeshan
+Hitesh Choudhary
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Swati
+Saurabh Shukla
+Bharath
+Rishav Dash
+Ankit Sharma
+Abhishek
+Samprit
+Maitry
+Muskan Garg
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Ineuron Intelligence
+Mahak
+Mukesh Rao
+Rishav Dash
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Ashish
+Harikrishnan Shaji
+Prateek _iot
+Maneesh
+Rohan
+Sudhanshu Kumar
+Suraj S Bilgi
+Spuri
+Shivan_S
+Nitin M
+Vivek
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Sandipan Saha
+Manjunatha A
+Ishawant Kumar
+Khushboo Priya
+Boktiar Ahmed Bappy
+Nishtha Jain
+Sandipan Saha
+Khushboo Priya
+Nishtha Jain
+Ishawant Kumar
+Manjunatha A
+Boktiar Ahmed Bappy
+Aditya_iot
+Ameya Jain
+Mahesh Sarade
+Jaydeep Dixit
+Shivananda Sonwane
+Shubham Sharma
+Prerna Singh
+Zeeshan
+Jawala Prakash
+Aditya Shinde
+Harikrishnan Shaji
+Sanjeevan
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Hrisikesh Neogi
+Uday Mishra
+Jayant Kumar
+Hyder Abbas
+Mithun S
+Saurabh Shukla
+Prabir Kumar Satapathy
+Deepranjan Gupta
+Bharath
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Wasim
+Aravind
+Muskan Garg
+Tarun
+Ashad Nasim
+Aditya
+Amersh
+Vasanth P
+Ineuron Intelligence
+Mahak
+Mukesh Rao
+Saif Khan
+Ankitjha
+Anurag Tiwari
+Ashish
+Prateek _iot
+Maneesh
+Saikumarreddy N
+Rohan
+Sudhanshu Kumar
+Spuri
+Suraj S Bilgi
+Nandani Gupta
+Shivan_S
+Shivan K
+Vivek
+Nitin M
+Ayushi Mishra
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Hitesh Choudhary
+Rishav Dash
+Swati
+Madhulika G
+Maitry
+Sanjeev Kumar
+Sanjeev Kumar
+Prateek _iot
+Aditya_iot
+Shivan K
+Saikumarreddy N
+Deepranjan Gupta
+Hrisikesh Neogi
+Bharath
+Nandani Gupta
+Aravind
+Wasim
+Ayushi Mishra
+Mithun S
+Ameya Jain
+Harikrishnan Shaji
+Manjunatha A
+Nishtha Jain
+Khushboo Priya
+Ishawant Kumar
+Sandipan Saha
+Boktiar Ahmed Bappy
+Sanjeevan
+Hitesh Choudhary
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Shivananda Sonwane
+Uday Mishra
+Aditya Shinde
+Jayant Kumar
+Hyder Abbas
+Saurabh Shukla
+Prabir Kumar Satapathy
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Prerna Singh
+Muskan Garg
+Tarun
+Ashad Nasim
+Amersh
+Vasanth P
+Shubham Sharma
+Ineuron Intelligence
+Mahak
+Zeeshan
+Mukesh Rao
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Ashish
+Maneesh
+Sudhanshu Kumar
+Rohan
+Suraj S Bilgi
+Spuri
+Shivan_S
+Mahesh Sarade
+Vivek
+Nitin M
+Jawala Prakash
+Jaydeep Dixit
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Rishav Dash
+Madhulika G
+Maitry
+Swati
+Rishav Dash
+Swati
+Maitry
+Madhulika G
+Vivek
+Aditya_iot
+Prateek _iot
+Wasim
+Ayushi Mishra
+Bharath
+Shivan K
+Hrisikesh Neogi
+Saikumarreddy N
+Aravind
+Nandani Gupta
+Deepranjan Gupta
+Ameya Jain
+Mahesh Sarade
+Harikrishnan Shaji
+Shubham Sharma
+Shivananda Sonwane
+Prerna Singh
+Aditya Shinde
+Prabir Kumar Satapathy
+Jaydeep Dixit
+Jawala Prakash
+Zeeshan
+Sanjeevan
+Sanjeev Kumar
+Hitesh Choudhary
+Mukesh
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Jayant Kumar
+Hyder Abbas
+Mithun S
+Saurabh Shukla
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Muskan Garg
+Tarun
+Ashad Nasim
+Boktiar Ahmed Bappy
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Mukesh Rao
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Ashish
+Maneesh
+Sudhanshu Kumar
+Rohan
+Suraj S Bilgi
+Spuri
+Shivan_S
+Nitin M
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Nishtha Jain
+Ishawant Kumar
+Manjunatha A
+Khushboo Priya
+Anirudh
+Prateek _iot
+Aditya_iot
+Vivek
+Jayant Kumar
+Rishav Dash
+Swati
+Maitry
+Madhulika G
+Sanjeev Kumar
+Harikrishnan Shaji
+Mahesh Sarade
+Prerna Singh
+Shivananda Sonwane
+Aditya Shinde
+Jaydeep Dixit
+Jawala Prakash
+Shubham Sharma
+Mithun S
+Prabir Kumar Satapathy
+Zeeshan
+Sanjeevan
+Hitesh Choudhary
+Mukesh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Hrisikesh Neogi
+Uday Mishra
+Hyder Abbas
+Saurabh Shukla
+Deepranjan Gupta
+Bharath
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Wasim
+Aravind
+Muskan Garg
+Tarun
+Ashad Nasim
+Boktiar Ahmed Bappy
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Ameya Jain
+Mukesh Rao
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Maneesh
+Ashish
+Saikumarreddy N
+Sudhanshu Kumar
+Rohan
+Suraj S Bilgi
+Spuri
+Nandani Gupta
+Shivan_S
+Shivan K
+Nitin M
+Ayushi Mishra
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Manjunatha A
+Ishawant Kumar
+Nishtha Jain
+Khushboo Priya
+Anirudh
+Vivek
+Saurabh Shukla
+Aditya_iot
+Prateek _iot
+Shivan K
+Ayushi Mishra
+Hrisikesh Neogi
+Bharath
+Aravind
+Wasim
+Deepranjan Gupta
+Nandani Gupta
+Harikrishnan Shaji
+Prabir Kumar Satapathy
+Mahesh Sarade
+Mithun S
+Zeeshan
+Prerna Singh
+Shubham Sharma
+Jaydeep Dixit
+Aditya Shinde
+Shivananda Sonwane
+Sanjeevan
+Sanjeev Kumar
+Hitesh Choudhary
+Mukesh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Jayant Kumar
+Hyder Abbas
+Swati
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Maitry
+Muskan Garg
+Tarun
+Ashad Nasim
+Boktiar Ahmed Bappy
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Ameya Jain
+Mukesh Rao
+Rishav Dash
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Maneesh
+Ashish
+Saikumarreddy N
+Sudhanshu Kumar
+Rohan
+Suraj S Bilgi
+Spuri
+Shivan_S
+Nitin M
+Madhulika G
+Chaitra K Hiremath
+Sowmiya Sivakumar
+Jawala Prakash
+Nishtha Jain
+Khushboo Priya
+Manjunatha A
+Ishawant Kumar
+Ishawant Kumar
+Nishtha Jain
+Khushboo Priya
+Manjunatha A
+Harikrishnan Shaji
+Mahesh Sarade
+Shivan K
+Hrisikesh Neogi
+Nandani Gupta
+Bharath
+Deepranjan Gupta
+Aravind
+Anirudh
+Rishav Dash
+Jayant Kumar
+Swati
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Aditya Shinde
+Hyder Abbas
+Mithun S
+Prabir Kumar Satapathy
+Saurabh Shukla
+Rishav Dash
+Ankit Sharma
+Samprit
+Abhishek
+Prerna Singh
+Wasim
+Maitry
+Muskan Garg
+Tarun
+Ashad Nasim
+Boktiar Ahmed Bappy
+Amersh
+Vasanth P
+Shubham Sharma
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Ameya Jain
+Mukesh Rao
+Zeeshan
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Maneesh
+Ashish
+Prateek _iot
+Saikumarreddy N
+Sudhanshu Kumar
+Rohan
+Suraj S Bilgi
+Spuri
+Shivan_S
+Vivek
+Nitin M
+Jaydeep Dixit
+Chaitra K Hiremath
+Jawala Prakash
+Sowmiya Sivakumar
+Shivananda Sonwane
+Madhulika G
+Sanjeev Kumar
+Ayushi Mishra
+Madhulika G
+Shivananda Sonwane
+Ayushi Mishra
+Sanjeev Kumar
+Nandani Gupta
+Hrisikesh Neogi
+Shivan K
+Bharath
+Aravind
+Deepranjan Gupta
+Saurabh Shukla
+Maneesh
+Harikrishnan Shaji
+Mahesh Sarade
+Shubham Sharma
+Jaydeep Dixit
+Aditya Shinde
+Prerna Singh
+Prabir Kumar Satapathy
+Anirudh
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Ashish
+Shiva Srivastava
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Mithun S
+Swati
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Wasim
+Maitry
+Muskan Garg
+Tarun
+Ashad Nasim
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Rishav Dash
+Ameya Jain
+Zeeshan
+Mukesh Rao
+Saif Khan
+Ankitjha
+Aditya
+Anurag Tiwari
+Prateek _iot
+Ashish
+Sudhanshu Kumar
+Saikumarreddy N
+Rohan
+Spuri
+Suraj S Bilgi
+Shivan_S
+Sowmiya Sivakumar
+Vivek
+Nitin M
+Chaitra K Hiremath
+Jawala Prakash
+Nishtha Jain
+Ishawant Kumar
+Khushboo Priya
+Boktiar Ahmed Bappy
+Manjunatha A
+Nishtha Jain
+Khushboo Priya
+Manjunatha A
+Ishawant Kumar
+Vivek
+Boktiar Ahmed Bappy
+Mahesh Sarade
+Anirudh
+Anurag Tiwari
+Mukesh Rao
+Prabir Kumar Satapathy
+Aditya_iot
+Mithun S
+Prateek _iot
+Harikrishnan Shaji
+Aravind
+Aditya Shinde
+Shubham Sharma
+Prerna Singh
+Shivananda Sonwane
+Jaydeep Dixit
+Jawala Prakash
+Zeeshan
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Ashish
+Shiva Srivastava
+Dibyanshu
+Hrisikesh Neogi
+Uday Mishra
+Hyder Abbas
+Saurabh Shukla
+Deepranjan Gupta
+Bharath
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Wasim
+Muskan Garg
+Tarun
+Ashad Nasim
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Mahak
+Ameya Jain
+Saif Khan
+Ankitjha
+Aditya
+Maneesh
+Ashish
+Sudhanshu Kumar
+Saikumarreddy N
+Rohan
+Spuri
+Suraj S Bilgi
+Nandani Gupta
+Shivan_S
+Sowmiya Sivakumar
+Shivan K
+Nitin M
+Ayushi Mishra
+Chaitra K Hiremath
+Jayant Kumar
+Rishav Dash
+Sanjeev Kumar
+Maitry
+Madhulika G
+Swati
+Sanjeev Kumar
+Bharath
+Nandani Gupta
+Ayushi Mishra
+Hrisikesh Neogi
+Deepranjan Gupta
+Shivan K
+Aravind
+Anurag Tiwari
+Harikrishnan Shaji
+Mithun S
+Mukesh Rao
+Prabir Kumar Satapathy
+Saurabh Shukla
+Maneesh
+Aditya_iot
+Prateek _iot
+Zeeshan
+Wasim
+Nishtha Jain
+Ishawant Kumar
+Manjunatha A
+Boktiar Ahmed Bappy
+Khushboo Priya
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Anirudh
+Ashish
+Shiva Srivastava
+Dibyanshu
+Shivananda Sonwane
+Uday Mishra
+Aditya Shinde
+Hyder Abbas
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Prerna Singh
+Muskan Garg
+Tarun
+Ashad Nasim
+Amersh
+Vasanth P
+Ineuron Intelligence
+Sandipan Saha
+Shubham Sharma
+Mahak
+Ameya Jain
+Saif Khan
+Ankitjha
+Aditya
+Ashish
+Rohan
+Sudhanshu Kumar
+Saikumarreddy N
+Spuri
+Suraj S Bilgi
+Shivan_S
+Sowmiya Sivakumar
+Mahesh Sarade
+Vivek
+Nitin M
+Chaitra K Hiremath
+Jawala Prakash
+Jaydeep Dixit
+Rishav Dash
+Madhulika G
+Jayant Kumar
+Swati
+Maitry
+Madhulika G
+Jayant Kumar
+Rishav Dash
+Mukesh Rao
+Shivan_S
+Ayushi Mishra
+Maitry
+Swati
+Hrisikesh Neogi
+Bharath
+Deepranjan Gupta
+Prateek _iot
+Dibyanshu
+Nandani Gupta
+Sudhanshu Kumar
+Shivan K
+Aditya Shinde
+Jaydeep Dixit
+Prerna Singh
+Shubham Sharma
+Shivananda Sonwane
+Anirudh
+Jawala Prakash
+Sanjeev Kumar
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Mithun S
+Ashish
+Shiva Srivastava
+Uday Mishra
+Aditya_iot
+Hyder Abbas
+Prabir Kumar Satapathy
+Saurabh Shukla
+Rishav Dash
+Samprit
+Ankit Sharma
+Abhishek
+Wasim
+Muskan Garg
+Tarun
+Aravind
+Amersh
+Vasanth P
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Mahak
+Ameya Jain
+Zeeshan
+Ankitjha
+Aditya
+Saif Khan
+Anurag Tiwari
+Maneesh
+Ashish
+Harikrishnan Shaji
+Rohan
+Saikumarreddy N
+Spuri
+Suraj S Bilgi
+Mahesh Sarade
+Sowmiya Sivakumar
+Vivek
+Nitin M
+Chaitra K Hiremath
+Boktiar Ahmed Bappy
+Manjunatha A
+Nishtha Jain
+Ashad Nasim
+Khushboo Priya
+Anirudh
+Maneesh
+Shivan K
+Vivek
+Rishav Dash
+Ameya Jain
+Madhulika G
+Swati
+Jayant Kumar
+Maitry
+Sanjeev Kumar
+Ashad Nasim
+Mahak
+Samprit
+Ankitjha
+Prabir Kumar Satapathy
+Mithun S
+Shivananda Sonwane
+Shubham Sharma
+Aditya Shinde
+Jaydeep Dixit
+Prerna Singh
+Jawala Prakash
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Ashish
+Shiva Srivastava
+Dibyanshu
+Hrisikesh Neogi
+Uday Mishra
+Aditya_iot
+Hyder Abbas
+Saurabh Shukla
+Bharath
+Deepranjan Gupta
+Rishav Dash
+Ankit Sharma
+Abhishek
+Wasim
+Muskan Garg
+Aravind
+Tarun
+Amersh
+Vasanth P
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Zeeshan
+Mukesh Rao
+Aditya
+Saif Khan
+Anurag Tiwari
+Ashish
+Harikrishnan Shaji
+Prateek _iot
+Rohan
+Sudhanshu Kumar
+Saikumarreddy N
+Suraj S Bilgi
+Spuri
+Nandani Gupta
+Shivan_S
+Mahesh Sarade
+Sowmiya Sivakumar
+Nitin M
+Ayushi Mishra
+Chaitra K Hiremath
+Khushboo Priya
+Boktiar Ahmed Bappy
+Nishtha Jain
+Manjunatha A
+Nishtha Jain
+Khushboo Priya
+Ayushi Mishra
+Bharath
+Nandani Gupta
+Shivan K
+Deepranjan Gupta
+Shivananda Sonwane
+Jaydeep Dixit
+Prerna Singh
+Aditya Shinde
+Shubham Sharma
+Hrisikesh Neogi
+Sanjeev Kumar
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Mithun S
+Anirudh
+Ashish
+Shiva Srivastava
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Hyder Abbas
+Swati
+Prabir Kumar Satapathy
+Saurabh Shukla
+Abhishek
+Rishav Dash
+Ankit Sharma
+Samprit
+Wasim
+Maitry
+Muskan Garg
+Aravind
+Tarun
+Ashad Nasim
+Amersh
+Vasanth P
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Mahak
+Rishav Dash
+Ameya Jain
+Zeeshan
+Mukesh Rao
+Aditya
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Maneesh
+Ashish
+Harikrishnan Shaji
+Prateek _iot
+Rohan
+Sudhanshu Kumar
+Saikumarreddy N
+Spuri
+Suraj S Bilgi
+Shivan_S
+Mahesh Sarade
+Sowmiya Sivakumar
+Vivek
+Nitin M
+Madhulika G
+Chaitra K Hiremath
+Jawala Prakash
+Boktiar Ahmed Bappy
+Manjunatha A
+Jawala Prakash
+Boktiar Ahmed Bappy
+Manjunatha A
+Aditya Shinde
+Bharath
+Deepranjan Gupta
+Nandani Gupta
+Shivan K
+Maitry
+Jayant Kumar
+Rishav Dash
+Swati
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Mithun S
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Hrisikesh Neogi
+Uday Mishra
+Aditya_iot
+Nishtha Jain
+Hyder Abbas
+Prabir Kumar Satapathy
+Saurabh Shukla
+Abhishek
+Rishav Dash
+Ankit Sharma
+Samprit
+Wasim
+Prerna Singh
+Muskan Garg
+Aravind
+Tarun
+Ashad Nasim
+Khushboo Priya
+Vasanth P
+Amersh
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Shubham Sharma
+Mahak
+Ameya Jain
+Zeeshan
+Mukesh Rao
+Aditya
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Maneesh
+Harikrishnan Shaji
+Ashish
+Prateek _iot
+Rohan
+Saikumarreddy N
+Sudhanshu Kumar
+Spuri
+Suraj S Bilgi
+Shivan_S
+Mahesh Sarade
+Sowmiya Sivakumar
+Vivek
+Nitin M
+Jaydeep Dixit
+Chaitra K Hiremath
+Sanjeev Kumar
+Shivananda Sonwane
+Madhulika G
+Ayushi Mishra
+Madhulika G
+Shivananda Sonwane
+Sanjeev Kumar
+Ayushi Mishra
+Nandani Gupta
+Aditya Shinde
+Bharath
+Deepranjan Gupta
+Hrisikesh Neogi
+Prerna Singh
+Shubham Sharma
+Jaydeep Dixit
+Khushboo Priya
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Mithun S
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Jayant Kumar
+Nishtha Jain
+Hyder Abbas
+Swati
+Prabir Kumar Satapathy
+Saurabh Shukla
+Abhishek
+Rishav Dash
+Ankit Sharma
+Samprit
+Wasim
+Maitry
+Muskan Garg
+Aravind
+Tarun
+Ashad Nasim
+Vasanth P
+Amersh
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Mahak
+Rishav Dash
+Ameya Jain
+Zeeshan
+Mukesh Rao
+Aditya
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Maneesh
+Harikrishnan Shaji
+Ashish
+Prateek _iot
+Rohan
+Saikumarreddy N
+Sudhanshu Kumar
+Spuri
+Suraj S Bilgi
+Shivan_S
+Mahesh Sarade
+Sowmiya Sivakumar
+Shivan K
+Nitin M
+Vivek
+Chaitra K Hiremath
+Boktiar Ahmed Bappy
+Jawala Prakash
+Manjunatha A
+Manjunatha A
+Jawala Prakash
+Saurabh Shukla
+Jayant Kumar
+Boktiar Ahmed Bappy
+Rishav Dash
+Maitry
+Madhulika G
+Swati
+Sanjeev Kumar
+Shivan K
+Prerna Singh
+Shubham Sharma
+Jaydeep Dixit
+Shivananda Sonwane
+Khushboo Priya
+Hrisikesh Neogi
+Tarun
+Sanjeevan
+Mukesh
+Hitesh Choudhary
+Mithun S
+Anirudh
+Shiva Srivastava
+Ashish
+Dibyanshu
+Uday Mishra
+Aditya_iot
+Nishtha Jain
+Aditya Shinde
+Hyder Abbas
+Prabir Kumar Satapathy
+Bharath
+Deepranjan Gupta
+Abhishek
+Rishav Dash
+Ankit Sharma
+Samprit
+Wasim
+Muskan Garg
+Aravind
+Ashad Nasim
+Vasanth P
+Amersh
+Ineuron Intelligence
+Ishawant Kumar
+Sandipan Saha
+Mahak
+Ameya Jain
+Mukesh Rao
+Zeeshan
+Aditya
+Ankitjha
+Saif Khan
+Anurag Tiwari
+Maneesh
+Harikrishnan Shaji
+Ashish
+Prateek _iot
+Rohan
+Saikumarreddy N
+Sudhanshu Kumar
+Spuri
+Suraj S Bilgi
+Nandani Gupta
+Shivan_S
+Mahesh Sarade
+Sowmiya Sivakumar
+Nitin M
+Vivek
+Ayushi Mishra
+Chaitra K Hiremath
+Time taken: 0.088 seconds, Fetched: 2161 row(s)
+
+
+=============================================
+
+
+hive>
+    >
+    > select avg(average_rating) from agentperf;
+Query ID = cloudera_20220929082424_edaf06b0-0b67-4d5d-ab24-7cc65c8215c6
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1664462974438_0001, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1664462974438_0001/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1664462974438_0001
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2022-09-29 08:25:06,636 Stage-1 map = 0%,  reduce = 0%
+2022-09-29 08:25:14,384 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.12 sec
+2022-09-29 08:25:24,242 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2.96 sec
+MapReduce Total cumulative CPU time: 2 seconds 960 msec
+Ended Job = job_1664462974438_0001
+MapReduce Jobs Launched:
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.96 sec   HDFS Read: 118657 HDFS Write: 19 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 960 msec
+OK
+1.4609629629629635
+Time taken: 33.225 seconds, Fetched: 1 row(s)
+hive>
+    >
+    >
+    >
+    >
+    >
+    > select * from agentperf where average_rating >= 4.5;
+OK
+3       7/30/2022       Ameya Jain      14      0:00:30 0:11:36 4.55    11
+4       7/30/2022       Mahesh Sarade   14      0:01:04 0:15:46 4.71    7
+6       7/30/2022       Mukesh  9       0:00:34 0:15:34 4.62    8
+7       7/30/2022       Saikumarreddy N 15      0:00:31 0:11:09 5       12
+8       7/30/2022       Sanjeev Kumar   12      0:00:55 0:20:43 5       6
+14      7/30/2022       Harikrishnan Shaji      13      0:00:42 0:25:49 4.57    7
+17      7/30/2022       Sowmiya Sivakumar       21      0:00:51 0:16:24 4.75    16
+68      7/30/2022       Boktiar Ahmed Bappy     4       0:02:23 0:09:28 4.75    4
+69      7/30/2022       Shivananda Sonwane      4       0:01:14 0:16:53 5       1
+70      7/30/2022       Ishawant Kumar  3       0:00:14 0:00:42 4.67    3
+71      7/30/2022       Deepranjan Gupta        5       0:00:25 0:08:38 4.8     5
+73      7/29/2022       Shivananda Sonwane      14      0:00:45 0:15:38 4.67    9
+76      7/29/2022       Muskan Garg     7       0:00:30 0:07:19 5       4
+78      7/29/2022       Aditya_iot      12      0:00:52 0:13:22 4.6     10
+85      7/29/2022       Mukesh  10      0:01:06 0:22:24 4.67    9
+86      7/29/2022       Chaitra K Hiremath      11      0:00:41 0:07:58 5       4
+87      7/29/2022       Suraj S Bilgi   8       0:01:41 0:47:24 5       4
+89      7/29/2022       Mithun S        19      0:00:57 0:14:59 4.8     15
+94      7/29/2022       Wasim   23      0:00:43 0:18:24 4.71    14
+96      7/29/2022       Bharath         17      0:00:28 0:24:22 4.85    13
+141     7/29/2022       Ishawant Kumar  13      0:00:54 0:25:46 5       8
+142     7/29/2022       Jawala Prakash  11      0:02:16 0:22:47 4.83    6
+143     7/29/2022       Ayushi Mishra   4       0:01:16 0:04:56 5       3
+152     7/28/2022       Ameya Jain      39      0:00:56 0:09:01 4.64    33
+164     7/28/2022       Bharath         23      0:00:35 0:19:44 4.79    19
+213     7/28/2022       Ishawant Kumar  17      0:01:24 0:16:57 4.75    12
+214     7/28/2022       Shivananda Sonwane      5       0:00:31 0:38:04 5       4
+217     7/27/2022       Ishawant Kumar  13      0:01:12 0:20:06 4.88    8
+221     7/27/2022       Prateek _iot    7       0:01:07 0:18:03 4.83    6
+223     7/27/2022       Prerna Singh    20      0:01:10 0:28:10 4.5     14
+225     7/27/2022       Sanjeev Kumar   19      0:01:00 0:29:25 4.82    11
+226     7/27/2022       Nandani Gupta   24      0:01:10 0:35:56 4.62    13
+227     7/27/2022       Saikumarreddy N 31      0:01:18 0:18:39 4.59    22
+229     7/27/2022       Ameya Jain      21      0:01:07 0:15:11 5       16
+234     7/27/2022       Khushboo Priya  18      0:01:28 0:15:31 4.71    14
+236     7/27/2022       Wasim   25      0:01:05 0:27:15 4.53    17
+239     7/27/2022       Harikrishnan Shaji      17      0:00:35 0:10:25 4.5     12
+240     7/27/2022       Manjunatha A    18      0:01:04 0:24:54 4.54    13
+242     7/27/2022       Bharath         21      0:00:32 0:19:58 4.88    17
+284     7/27/2022       Maitry  3       0:00:34 0:19:22 5       2
+286     7/27/2022       Ayushi Mishra   4       0:00:44 0:21:25 5       2
+288     7/27/2022       Deepranjan Gupta        5       0:01:33 0:22:45 5       3
+291     7/26/2022       Muskan Garg     13      0:00:34 0:09:00 4.6     10
+294     7/26/2022       Prateek _iot    11      0:00:40 0:12:57 5       6
+296     7/26/2022       Saikumarreddy N 29      0:01:01 0:17:04 4.71    24
+298     7/26/2022       Jaydeep Dixit   22      0:00:48 0:23:38 4.78    18
+305     7/26/2022       Khushboo Priya  18      0:01:09 0:17:26 4.6     10
+308     7/26/2022       Madhulika G     29      0:01:06 0:19:36 4.56    18
+355     7/26/2022       Ishawant Kumar  4       0:00:45 0:20:29 4.5     2
+358     7/26/2022       Deepranjan Gupta        24      0:01:40 0:28:09 4.88    17
+360     7/26/2022       Shivananda Sonwane      24      0:00:51 0:22:28 5       14
+361     7/25/2022       Shivananda Sonwane      13      0:00:47 0:28:05 4.62    8
+363     7/25/2022       Shiva Srivastava        11      0:00:21 0:06:52 4.5     10
+364     7/25/2022       Prateek _iot    12      0:00:48 0:05:55 4.56    9
+365     7/25/2022       Aditya_iot      24      0:01:48 0:20:40 4.56    16
+367     7/25/2022       Ameya Jain      28      0:00:45 0:12:09 4.8     20
+368     7/25/2022       Sanjeev Kumar   34      0:00:49 0:21:23 4.57    23
+370     7/25/2022       Prerna Singh    29      0:01:06 0:29:17 4.62    13
+375     7/25/2022       Shivan K        13      0:00:51 0:21:29 4.78    9
+377     7/25/2022       Rishav Dash     16      0:02:06 0:30:42 4.5     10
+382     7/25/2022       Bharath         19      0:00:42 0:36:23 4.79    14
+428     7/25/2022       Jawala Prakash  14      0:01:21 0:18:33 4.64    11
+429     7/25/2022       Maitry  5       0:05:32 0:10:07 5       4
+430     7/25/2022       Deepranjan Gupta        24      0:01:20 0:17:56 4.69    16
+433     7/24/2022       Shiva Srivastava        2       0:00:47 0:04:18 5       2
+434     7/24/2022       Jawala Prakash  12      0:01:22 0:29:59 4.56    9
+437     7/24/2022       Jaydeep Dixit   21      0:00:40 0:28:28 4.67    9
+438     7/24/2022       Swati   21      0:01:12 0:21:15 4.53    15
+439     7/24/2022       Shubham Sharma  25      0:00:56 0:23:10 4.67    15
+441     7/24/2022       Ameya Jain      24      0:00:42 0:11:34 4.56    18
+442     7/24/2022       Aravind         29      0:01:01 0:17:08 4.53    17
+443     7/24/2022       Zeeshan         24      0:01:21 0:20:04 4.85    20
+444     7/24/2022       Saikumarreddy N 27      0:02:08 0:20:48 4.57    23
+452     7/24/2022       Hrisikesh Neogi 28      0:01:00 0:23:47 4.8     20
+453     7/24/2022       Bharath         20      0:00:19 0:16:28 4.8     15
+504     7/24/2022       Maitry  30      0:02:11 0:24:38 4.84    19
+505     7/23/2022       Shiva Srivastava        6       0:02:00 0:08:18 4.5     6
+510     7/23/2022       Prerna Singh    25      0:00:35 0:18:30 4.57    14
+513     7/23/2022       Mahesh Sarade   33      0:00:57 0:16:34 4.53    17
+514     7/23/2022       Aravind         30      0:00:44 0:11:56 4.5     20
+515     7/23/2022       Sanjeev Kumar   33      0:00:44 0:11:04 4.54    26
+516     7/23/2022       Saikumarreddy N 33      0:00:56 0:10:52 4.85    27
+519     7/23/2022       Harikrishnan Shaji      39      0:01:14 0:29:46 4.89    18
+521     7/23/2022       Shivan K        36      0:01:04 0:24:11 4.72    25
+523     7/23/2022       Hrisikesh Neogi 28      0:01:04 0:21:17 4.53    17
+524     7/23/2022       Mithun S        27      0:00:33 0:07:34 4.53    19
+573     7/23/2022       Ishawant Kumar  6       0:00:41 0:15:04 5       5
+574     7/23/2022       Shivananda Sonwane      20      0:01:29 0:25:48 4.85    13
+575     7/23/2022       Jawala Prakash  8       0:00:57 0:07:44 4.75    4
+580     7/22/2022       Aditya_iot      11      0:00:48 0:21:30 5       2
+581     7/22/2022       Nandani Gupta   23      0:01:07 0:16:10 4.53    15
+587     7/22/2022       Sanjeev Kumar   25      0:01:25 0:21:17 4.84    19
+588     7/22/2022       Chaitra K Hiremath      1       0:03:49 0:04:59 5       1
+590     7/22/2022       Wasim   21      0:01:15 0:24:15 4.56    16
+591     7/22/2022       Nishtha Jain    13      0:00:49 0:14:55 4.5     10
+592     7/22/2022       Madhulika G     22      0:01:14 0:14:40 4.92    12
+593     7/22/2022       Khushboo Priya  17      0:01:17 0:16:56 5       9
+595     7/22/2022       Prabir Kumar Satapathy  15      0:00:52 0:09:35 4.86    14
+598     7/22/2022       Bharath         23      0:00:31 0:09:01 4.69    16
+646     7/22/2022       Ayushi Mishra   8       0:01:09 0:12:23 4.83    6
+653     7/21/2022       Ameya Jain      37      0:00:48 0:11:23 4.65    26
+654     7/21/2022       Jaydeep Dixit   30      0:01:24 0:31:54 4.55    20
+655     7/21/2022       Shubham Sharma  41      0:01:45 0:19:50 4.55    22
+658     7/21/2022       Wasim   31      0:01:27 0:19:20 4.89    19
+659     7/21/2022       Hrisikesh Neogi 23      0:01:39 0:34:09 4.64    14
+663     7/21/2022       Manjunatha A    22      0:01:46 0:24:47 4.64    11
+664     7/21/2022       Bharath         29      0:02:09 0:12:44 4.67    18
+722     7/20/2022       Ishawant Kumar  20      0:00:55 0:28:05 4.62    8
+725     7/20/2022       Prerna Singh    17      0:00:51 0:13:44 4.62    13
+728     7/20/2022       Ameya Jain      12      0:00:44 0:15:34 4.64    11
+729     7/20/2022       Shubham Sharma  26      0:01:02 0:16:59 4.84    19
+730     7/20/2022       Mahesh Sarade   20      0:00:56 0:18:21 4.67    15
+731     7/20/2022       Zeeshan         21      0:01:20 0:13:40 4.73    15
+735     7/20/2022       Khushboo Priya  16      0:00:56 0:15:48 4.58    12
+737     7/20/2022       Wasim   27      0:01:30 0:31:58 4.94    16
+738     7/20/2022       Manjunatha A    23      0:00:49 0:15:52 4.87    15
+740     7/20/2022       Bharath         23      0:00:44 0:10:55 4.89    18
+741     7/20/2022       Aravind         31      0:00:43 0:17:57 4.84    19
+742     7/20/2022       Harikrishnan Shaji      29      0:00:53 0:30:36 4.81    16
+790     7/20/2022       Shivananda Sonwane      21      0:01:08 0:22:40 4.55    11
+793     7/19/2022       Maitry  26      0:00:58 0:16:42 4.94    18
+796     7/19/2022       Saikumarreddy N 40      0:00:47 0:11:56 4.69    35
+800     7/19/2022       Sanjeev Kumar   24      0:00:50 0:27:36 4.53    15
+802     7/19/2022       Jaydeep Dixit   30      0:01:05 0:23:48 4.82    17
+803     7/19/2022       Aravind         40      0:00:52 0:31:42 4.63    27
+804     7/19/2022       Shivan K        26      0:01:06 0:11:43 4.76    17
+806     7/19/2022       Khushboo Priya  28      0:00:27 0:11:32 4.75    20
+809     7/19/2022       Wasim   36      0:00:33 0:19:17 4.88    24
+810     7/19/2022       Hrisikesh Neogi 26      0:01:43 0:32:17 4.67    12
+811     7/19/2022       Prabir Kumar Satapathy  29      0:00:44 0:12:09 4.78    18
+859     7/19/2022       Shivananda Sonwane      23      0:00:40 0:20:53 4.56    18
+865     7/18/2022       Ayushi Mishra   25      0:01:18 0:10:55 4.59    17
+869     7/18/2022       Prateek _iot    15      0:00:28 0:08:34 5       8
+871     7/18/2022       Jaydeep Dixit   23      0:01:00 0:35:34 4.91    11
+872     7/18/2022       Shubham Sharma  31      0:00:58 0:24:28 4.73    11
+879     7/18/2022       Rishav Dash     20      0:01:21 0:53:48 4.71    7
+880     7/18/2022       Wasim   27      0:00:38 0:20:05 4.81    16
+881     7/18/2022       Shivan K        29      0:01:15 0:15:31 4.79    24
+882     7/18/2022       Mithun S        27      0:00:33 0:12:05 4.8     25
+883     7/18/2022       Bharath         25      0:01:32 0:16:45 4.73    15
+932     7/18/2022       Manjunatha A    25      0:00:52 0:16:04 4.57    14
+935     7/18/2022       Ishawant Kumar  25      0:01:06 0:11:09 4.67    15
+936     7/18/2022       Khushboo Priya  6       0:00:45 0:07:53 5       6
+940     7/17/2022       Boktiar Ahmed Bappy     18      0:01:42 0:23:37 4.6     10
+941     7/17/2022       Manjunatha A    17      0:00:34 0:16:16 4.57    7
+942     7/17/2022       Hrisikesh Neogi 33      0:01:07 0:27:47 4.91    22
+943     7/17/2022       Saikumarreddy N 26      0:00:46 0:12:55 4.82    17
+944     7/17/2022       Aravind         32      0:00:39 0:16:58 4.67    18
+945     7/17/2022       Wasim   30      0:00:54 0:16:01 4.6     15
+1004    7/17/2022       Sudhanshu Kumar 1       0:01:12 0:40:39 5       1
+1006    7/17/2022       Sanjeev Kumar   35      0:02:04 0:21:32 4.5     20
+1008    7/17/2022       Madhulika G     8       0:00:57 0:20:26 5       3
+1010    7/16/2022       Sanjeev Kumar   17      0:01:01 0:25:08 4.56    9
+1017    7/16/2022       Nandani Gupta   35      0:01:17 0:19:50 4.64    14
+1018    7/16/2022       Saikumarreddy N 33      0:00:36 0:10:02 4.67    24
+1019    7/16/2022       Aravind         35      0:01:01 0:17:27 4.54    24
+1022    7/16/2022       Shubham Sharma  21      0:00:54 0:32:08 4.9     10
+1024    7/16/2022       Aditya Shinde   28      0:01:03 0:34:40 4.53    15
+1026    7/16/2022       Prerna Singh    14      0:00:59 1:26:09 5       6
+1075    7/16/2022       Sandipan Saha   1       0:00:28 0:41:24 5       1
+1076    7/16/2022       Manjunatha A    3       0:00:04 0:00:49 5       2
+1079    7/16/2022       Boktiar Ahmed Bappy     4       0:00:00 0:00:06 5       3
+1080    7/16/2022       Nishtha Jain    4       0:00:34 0:03:10 5       4
+1082    7/15/2022       Khushboo Priya  9       0:02:32 0:34:36 4.75    4
+1083    7/15/2022       Nishtha Jain    7       0:00:45 0:15:05 5       3
+1084    7/15/2022       Ishawant Kumar  7       0:00:43 0:13:18 5       6
+1090    7/15/2022       Jaydeep Dixit   20      0:00:49 0:28:47 4.9     10
+1091    7/15/2022       Shivananda Sonwane      15      0:00:47 0:28:21 4.88    8
+1092    7/15/2022       Shubham Sharma  20      0:00:55 0:22:01 4.92    13
+1093    7/15/2022       Prerna Singh    19      0:00:46 0:16:50 4.64    11
+1097    7/15/2022       Harikrishnan Shaji      14      0:00:45 0:16:17 4.78    9
+1152    7/15/2022       Sanjeev Kumar   38      0:01:02 0:22:28 4.61    18
+1154    7/14/2022       Prateek _iot    4       0:00:24 0:07:54 5       3
+1155    7/14/2022       Aditya_iot      14      0:00:40 0:16:33 4.8     5
+1156    7/14/2022       Shivan K        17      0:00:47 0:20:32 5       11
+1158    7/14/2022       Deepranjan Gupta        6       0:01:49 0:36:58 5       4
+1160    7/14/2022       Bharath         15      0:00:38 0:15:23 4.58    12
+1162    7/14/2022       Aravind         16      0:00:44 0:13:19 4.77    13
+1163    7/14/2022       Wasim   16      0:00:45 0:19:46 4.78    9
+1166    7/14/2022       Ameya Jain      22      0:00:25 0:14:03 4.53    15
+1167    7/14/2022       Harikrishnan Shaji      15      0:00:39 0:12:54 4.7     10
+1168    7/14/2022       Manjunatha A    20      0:00:29 0:13:34 4.67    18
+1170    7/14/2022       Khushboo Priya  16      0:01:05 0:23:20 4.8     10
+1223    7/14/2022       Maitry  22      0:02:34 0:25:50 4.73    11
+1224    7/14/2022       Swati   24      0:02:29 0:33:16 4.64    14
+1226    7/13/2022       Swati   20      0:01:53 0:25:51 4.67    12
+1227    7/13/2022       Maitry  20      0:01:41 0:19:48 4.85    13
+1228    7/13/2022       Madhulika G     19      0:02:08 0:14:47 4.71    14
+1231    7/13/2022       Prateek _iot    15      0:00:39 0:23:42 5       5
+1232    7/13/2022       Wasim   12      0:00:29 0:31:55 4.6     10
+1234    7/13/2022       Bharath         15      0:00:22 0:25:20 4.71    7
+1238    7/13/2022       Aravind         21      0:00:42 0:35:47 4.65    17
+1244    7/13/2022       Shubham Sharma  19      0:00:59 0:25:02 4.92    13
+1245    7/13/2022       Shivananda Sonwane      18      0:00:58 0:26:50 4.73    11
+1246    7/13/2022       Prerna Singh    12      0:01:03 0:20:49 4.67    6
+1247    7/13/2022       Aditya Shinde   15      0:01:54 0:46:23 5       9
+1248    7/13/2022       Prabir Kumar Satapathy  5       0:01:26 0:21:35 4.75    4
+1294    7/13/2022       Ishawant Kumar  3       0:00:46 0:09:14 4.67    3
+1296    7/13/2022       Khushboo Priya  3       0:00:25 0:08:21 4.67    3
+1306    7/12/2022       Sanjeev Kumar   16      0:02:13 0:44:48 4.5     10
+1307    7/12/2022       Harikrishnan Shaji      21      0:01:00 0:14:59 4.64    14
+1311    7/12/2022       Aditya Shinde   18      0:01:26 0:28:06 4.89    9
+1314    7/12/2022       Shubham Sharma  18      0:00:55 0:25:55 5       13
+1315    7/12/2022       Mithun S        28      0:00:26 0:09:03 4.67    21
+1371    7/11/2022       Saurabh Shukla  2       0:00:14 0:06:42 5       2
+1372    7/11/2022       Aditya_iot      7       0:01:18 0:22:35 4.6     5
+1373    7/11/2022       Prateek _iot    8       0:00:47 0:23:56 4.67    3
+1374    7/11/2022       Shivan K        14      0:00:28 0:15:13 4.57    7
+1376    7/11/2022       Hrisikesh Neogi 23      0:00:49 0:15:08 4.82    17
+1377    7/11/2022       Bharath         16      0:00:38 0:10:48 4.7     10
+1380    7/11/2022       Deepranjan Gupta        26      0:01:21 0:29:52 4.72    18
+1381    7/11/2022       Nandani Gupta   20      0:00:48 0:19:20 4.69    13
+1382    7/11/2022       Harikrishnan Shaji      7       0:01:16 0:19:47 4.83    6
+1383    7/11/2022       Prabir Kumar Satapathy  13      0:00:34 0:14:17 4.9     10
+1384    7/11/2022       Mahesh Sarade   12      0:00:55 0:15:48 4.57    7
+1385    7/11/2022       Mithun S        19      0:00:33 0:12:56 4.69    13
+1387    7/11/2022       Prerna Singh    6       0:01:00 0:13:44 4.75    4
+1389    7/11/2022       Jaydeep Dixit   17      0:01:12 0:28:43 4.69    13
+1390    7/11/2022       Aditya Shinde   21      0:00:56 0:12:47 4.93    15
+1391    7/11/2022       Shivananda Sonwane      14      0:00:44 0:18:40 4.83    12
+1441    7/10/2022       Ishawant Kumar  10      0:01:14 0:22:34 4.67    6
+1442    7/10/2022       Nishtha Jain    13      0:00:56 0:14:57 5       5
+1443    7/10/2022       Khushboo Priya  13      0:01:05 0:10:43 4.5     10
+1444    7/10/2022       Manjunatha A    16      0:01:03 0:29:58 4.86    7
+1446    7/10/2022       Mahesh Sarade   6       0:00:38 0:06:51 4.5     4
+1448    7/10/2022       Hrisikesh Neogi 32      0:01:03 0:20:30 4.88    17
+1449    7/10/2022       Nandani Gupta   21      0:01:18 0:26:02 4.67    9
+1452    7/10/2022       Aravind         25      0:00:45 0:19:00 4.67    12
+1456    7/10/2022       Swati   55      0:01:43 0:25:42 4.78    27
+1509    7/10/2022       Shivananda Sonwane      8       0:00:53 0:14:46 5       4
+1511    7/10/2022       Sanjeev Kumar   37      0:01:16 0:35:31 4.95    20
+1512    7/10/2022       Ayushi Mishra   25      0:01:20 0:17:10 4.61    18
+1513    7/9/2022        Madhulika G     4       0:01:29 0:21:53 4.67    3
+1514    7/9/2022        Shivananda Sonwane      15      0:00:47 0:12:18 4.75    12
+1515    7/9/2022        Ayushi Mishra   18      0:01:34 0:23:56 4.83    6
+1516    7/9/2022        Sanjeev Kumar   12      0:00:49 0:33:38 4.67    6
+1518    7/9/2022        Hrisikesh Neogi 35      0:00:40 0:17:07 4.85    20
+1519    7/9/2022        Shivan K        29      0:00:40 0:13:02 4.52    21
+1520    7/9/2022        Bharath         15      0:00:25 0:18:14 4.86    7
+1521    7/9/2022        Aravind         33      0:00:39 0:24:47 4.87    15
+1523    7/9/2022        Saurabh Shukla  1       0:00:28 0:04:04 5       1
+1528    7/9/2022        Jaydeep Dixit   32      0:01:15 0:25:02 4.59    22
+1531    7/9/2022        Prabir Kumar Satapathy  9       0:01:36 0:09:20 5       3
+1580    7/9/2022        Nishtha Jain    2       0:00:57 0:08:41 5       2
+1581    7/9/2022        Ishawant Kumar  3       0:00:25 0:15:07 5       1
+1582    7/9/2022        Khushboo Priya  4       0:00:35 0:15:24 4.67    3
+1583    7/9/2022        Boktiar Ahmed Bappy     4       0:00:57 0:12:02 5       2
+1584    7/9/2022        Manjunatha A    3       0:00:38 0:14:33 5       2
+1585    7/8/2022        Nishtha Jain    5       0:01:15 0:23:21 5       2
+1588    7/8/2022        Ishawant Kumar  11      0:01:12 0:33:12 5       4
+1590    7/8/2022        Boktiar Ahmed Bappy     10      0:00:41 2:45:27 4.88    8
+1592    7/8/2022        Anirudh         10      0:01:47 0:15:03 5       2
+1595    7/8/2022        Prabir Kumar Satapathy  5       0:01:03 0:09:32 5       4
+1596    7/8/2022        Aditya_iot      6       0:00:32 0:10:49 4.8     5
+1598    7/8/2022        Prateek _iot    4       0:00:35 0:18:13 5       1
+1600    7/8/2022        Aravind         1       0:00:24 0:07:28 5       1
+1601    7/8/2022        Aditya Shinde   8       0:00:42 0:23:03 4.57    7
+1602    7/8/2022        Shubham Sharma  11      0:00:45 0:36:24 4.8     5
+1603    7/8/2022        Prerna Singh    9       0:00:44 0:24:46 5       6
+1604    7/8/2022        Shivananda Sonwane      8       0:00:43 0:34:44 5       4
+1605    7/8/2022        Jaydeep Dixit   9       0:01:12 0:36:55 4.75    4
+1607    7/8/2022        Zeeshan         16      0:01:23 0:21:15 4.69    13
+1656    7/8/2022        Swati   27      0:01:20 0:14:09 4.56    18
+1658    7/7/2022        Bharath         15      0:00:23 0:11:15 4.54    13
+1660    7/7/2022        Ayushi Mishra   17      0:00:53 0:16:56 4.7     10
+1661    7/7/2022        Hrisikesh Neogi 26      0:00:48 0:20:14 4.62    21
+1663    7/7/2022        Shivan K        24      0:00:38 0:16:17 4.73    15
+1664    7/7/2022        Aravind         24      0:00:39 0:21:21 4.93    15
+1673    7/7/2022        Prateek _iot    18      0:00:31 0:11:17 4.85    13
+1678    7/7/2022        Manjunatha A    33      0:00:44 0:23:52 4.57    14
+1679    7/7/2022        Boktiar Ahmed Bappy     23      0:01:01 0:19:54 4.5     12
+1724    7/7/2022        Rishav Dash     6       0:01:14 0:19:24 4.8     5
+1725    7/7/2022        Madhulika G     17      0:00:35 0:16:45 4.67    12
+1726    7/7/2022        Jayant Kumar    8       0:00:36 0:24:44 5       4
+1730    7/6/2022        Jayant Kumar    8       0:01:09 0:08:25 5       3
+1732    7/6/2022        Mukesh Rao      1       0:06:34 3:43:07 5       1
+1734    7/6/2022        Ayushi Mishra   20      0:00:53 0:10:40 4.62    13
+1736    7/6/2022        Swati   15      0:01:06 0:15:22 4.75    8
+1737    7/6/2022        Hrisikesh Neogi 18      0:00:34 0:11:16 4.64    14
+1742    7/6/2022        Nandani Gupta   23      0:01:33 0:18:07 4.75    12
+1743    7/6/2022        Sudhanshu Kumar 1       0:00:48 0:17:50 5       1
+1746    7/6/2022        Jaydeep Dixit   17      0:00:55 0:13:40 4.67    9
+1747    7/6/2022        Prerna Singh    16      0:01:22 0:22:38 4.5     8
+1748    7/6/2022        Shubham Sharma  19      0:00:49 0:17:04 4.83    12
+1796    7/6/2022        Boktiar Ahmed Bappy     3       0:00:32 0:15:53 5       2
+1798    7/6/2022        Nishtha Jain    2       0:00:55 0:03:48 4.5     2
+1804    7/5/2022        Vivek   4       0:00:47 0:02:06 5       3
+1811    7/5/2022        Sanjeev Kumar   17      0:00:39 0:09:11 4.82    11
+1815    7/5/2022        Ankitjha        1       0:00:00 0:21:22 5       1
+1820    7/5/2022        Aditya Shinde   20      0:01:06 0:18:10 4.67    9
+1823    7/5/2022        Jawala Prakash  22      0:06:43 0:21:52 4.5     10
+1869    7/5/2022        Khushboo Priya  25      0:01:31 0:17:22 4.54    13
+1872    7/5/2022        Manjunatha A    23      0:00:42 0:22:44 5       13
+1873    7/4/2022        Nishtha Jain    6       0:00:37 0:05:21 5       2
+1874    7/4/2022        Khushboo Priya  15      0:02:11 0:45:13 4.58    12
+1876    7/4/2022        Bharath         28      0:00:42 0:27:17 4.71    14
+1880    7/4/2022        Shivananda Sonwane      26      0:00:55 0:27:34 4.7     10
+1881    7/4/2022        Jaydeep Dixit   28      0:01:13 0:24:00 4.71    17
+1882    7/4/2022        Prerna Singh    18      0:01:33 0:18:05 4.67    9
+1883    7/4/2022        Aditya Shinde   14      0:01:24 0:31:21 4.78    9
+1943    7/4/2022        Boktiar Ahmed Bappy     22      0:00:56 0:08:52 4.5     14
+1946    7/3/2022        Boktiar Ahmed Bappy     23      0:00:53 0:09:34 4.88    17
+1949    7/3/2022        Bharath         11      0:00:21 0:06:34 4.67    9
+1950    7/3/2022        Deepranjan Gupta        40      0:01:04 0:25:10 4.75    20
+1951    7/3/2022        Nandani Gupta   38      0:01:39 0:33:43 4.8     15
+1955    7/3/2022        Rishav Dash     25      0:01:45 0:20:49 4.6     15
+2014    7/3/2022        Shivananda Sonwane      3       0:00:58 0:17:44 5       1
+2015    7/3/2022        Madhulika G     3       0:00:38 0:08:09 5       2
+2017    7/2/2022        Madhulika G     4       0:02:01 0:11:31 5       3
+2023    7/2/2022        Bharath         28      0:01:03 0:12:51 5       14
+2027    7/2/2022        Shubham Sharma  24      0:00:55 0:19:47 4.56    9
+2028    7/2/2022        Jaydeep Dixit   36      0:00:44 0:12:51 4.88    16
+2086    7/2/2022        Boktiar Ahmed Bappy     6       0:00:29 0:04:34 4.83    6
+2087    7/2/2022        Jawala Prakash  5       0:00:38 0:05:50 5       3
+2088    7/2/2022        Manjunatha A    6       0:00:23 0:06:42 4.75    4
+2089    7/1/2022        Manjunatha A    17      0:00:54 0:14:52 4.83    12
+2095    7/1/2022        Maitry  29      0:00:43 0:18:07 4.79    14
+2096    7/1/2022        Madhulika G     24      0:02:03 0:19:05 4.5     14
+2097    7/1/2022        Swati   21      0:01:12 0:25:16 4.78    9
+2099    7/1/2022        Shivan K        4       0:02:07 1:21:17 5       1
+2101    7/1/2022        Shubham Sharma  22      0:01:48 0:29:26 5       13
+2102    7/1/2022        Jaydeep Dixit   25      0:01:15 0:26:27 4.77    13
+2103    7/1/2022        Shivananda Sonwane      23      0:01:24 0:30:14 4.86    14
+2104    7/1/2022        Khushboo Priya  24      0:01:46 0:29:28 4.61    18
+2105    7/1/2022        Hrisikesh Neogi 15      0:01:05 0:25:29 4.56    9
+Time taken: 0.211 seconds, Fetched: 325 row(s)
+
+
+
+===================================================================
+
+
+
+
+
+
