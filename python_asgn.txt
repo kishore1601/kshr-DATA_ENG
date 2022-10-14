@@ -1,0 +1,94 @@
+arr = [2,4,5,10]
+c = sum(arr)
+print(c)
+
+
+#===========================
+
+
+
+arr = {1, 2, 3, 4, 5, 6, 7}
+d = 2
+
+a= len(arr)
+print(a)
+
+
+#===========================
+ Difference between two lists ?
+
+a = [10, 15, 20, 25, 30, 35, 40]
+b = [25, 40, 35]
+
+temp = []
+for i in a :
+    if i not in b:
+        temp.append(i)
+print(temp)
+
+
+
+#====================
+
+Print all positive numbers from given list using for loop Iterate each
+element in the list using for loop and check if number is greater than or
+equal to 0. If the condition satisfies, then only print the number.?
+
+
+list1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+
+for i in list1 :
+    if  i >= 0 :
+        print(i)
+
+
+for j in list2 :
+    if  j >= 0 :
+        print(j)
+#========================================
+
+
+Number of substrings of a string?
+
+def sub(str):
+    n = len(str)
+    return int(n * (n + 1) / 2)
+
+str = "asdvsdvsd"
+print (sub(str))
+
+
+#========================================
+
+Upper to lower / lower to upper
+
+a = "gckvvukyvkutvv"
+b = "HVUVBKJKJBK"
+
+print(a.upper())
+print(b.lower())
+
+#========================================
+
+
+test_str = "himynameiskishoreraj"
+
+a = {}
+
+for i in test_str:
+    if i in a :
+        a[i] += 1
+    else:
+        a[i] = 1
+
+print("Count of all characters is :\n " + str(a))
+
+Output:
+Count of all characters is :
+ {'h': 2, 'i': 3, 'm': 2, 'y': 1, 'n': 1, 'a': 2, 'e': 2, 's': 2, 'k': 1, 'o': 1, 'r': 2, 'j': 1}
+
+#========================================
+
+
+
